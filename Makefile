@@ -1,4 +1,4 @@
-NAME = bar
+NAME = baz
 
 prefix := /usr
 exec_prefix := $(prefix)
