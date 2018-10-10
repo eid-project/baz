@@ -6,7 +6,7 @@ libdir := $(exec_prefix)/lib
 includedir := $(prefix)/include
 
 CFLAGS += -I.
-LDFLAGS := -shared
+LDFLAGS := -shared -Wl,-soname=lib${NAME}.so.1
 
 TARGET := lib$(NAME).so
 
